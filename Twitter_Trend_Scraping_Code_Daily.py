@@ -6,7 +6,7 @@
 
 import numpy as np
 import pandas as pd
-pip install -r requirements.txt
+
 
 # In[4]:
 
