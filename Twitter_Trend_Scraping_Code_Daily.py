@@ -17,13 +17,13 @@
 import streamlit as st
 import time
 import os
-from Selenium import webdriver
-from Selenium.webdriver.common.by import By
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 import pandas as pd
 import numpy as np
 import datetime
 import re
-@st.cache
+@st.cache_data(hash_funcs={datetime.date: lambda x: x.strftime('%d/%m/%Y')})
 def scrape_twitter_trending_data():
     
     #get current_date
