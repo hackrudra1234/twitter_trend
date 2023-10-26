@@ -17,8 +17,8 @@
 import streamlit as st
 import time
 import os
-from selenium import webdriver
-from selenium.webdriver.common.by import By
+from seleniumbase import webdriver
+from seleniumbase.webdriver.common.by import By
 import pandas as pd
 import numpy as np
 import datetime
