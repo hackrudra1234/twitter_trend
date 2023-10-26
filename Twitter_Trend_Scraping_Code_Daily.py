@@ -4,15 +4,11 @@
 # In[3]:
 
 
-import numpy as np
-import pandas as pd
 
 
 # In[4]:
 
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 
 
 # In[5]:
@@ -24,6 +20,7 @@ import time
 import os
 from selenium.webdriver.common.by import By
 import pandas as pd
+import numpy as np
 import datetime
 import re
 @st.cache
