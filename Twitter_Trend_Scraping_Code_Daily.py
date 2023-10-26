@@ -29,7 +29,9 @@ def scrape_twitter_trending_data():
     #get current_date
     current_date = datetime.datetime.now().strftime('%d/%m/%Y')
     # Initialize the WebDriver
-    browser = webdriver.Chrome()
+    browser = webdriver.Chrome(options = options)
+    options = Options()
+    options.add_argument('--headless')
     
     try:
         # Open the URL
