@@ -3,7 +3,7 @@
 
 # In[3]:
 
-pip install streamlit
+-m pip install streamlit
 pip install selenium
 
 
